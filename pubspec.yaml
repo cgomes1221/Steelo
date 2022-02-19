@@ -1,0 +1,36 @@
+name: steelo
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # statem anagement
+  provider: ^4.3.2+2
+
+  # icons
+  font_awesome_flutter: ^8.10.0
+  flutter_staggered_grid_view: ^0.4.1
+  line_icons: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: LibreBarcode39Text-Regular.ttf
+      fonts:
+        - asset: assets/fonts/LibreBarcode39Text-Regular.ttf
+  assets:
+    - assets/
+   
